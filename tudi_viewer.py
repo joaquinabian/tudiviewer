@@ -10,9 +10,10 @@ Program for LCMSMS data Analysis
 #
 from matplotlib import use
 use('WXAgg')
+
 import wx
 import os
-import ConfigParser
+import configparser
 import pandas as p
 from commons.iconic import Iconic
 from commons.info import About
@@ -20,7 +21,7 @@ from commons.warns import tell
 from matplotlib import rcParams as rcp
 from tudi_frame import TudiFrame
 from tudi_ico import ICON
-#noinspection PyUnresolvedReferences
+# noinspection PyUnresolvedReferences
 from matplotlib.cm import jet
 from matplotlib.colors import Normalize
 #
@@ -41,11 +42,11 @@ class MyFileDropTarget(wx.FileDropTarget):
         wx.FileDropTarget.__init__(self)
         self.window = window
 
-    #noinspection PyMethodOverriding
+    # noinspection PyMethodOverriding
     def OnDropFiles(self, x, y, filename):
         self.window.notify(filename)
 #
-#noinspection PyArgumentList,PyUnusedLocal
+# noinspection PyArgumentList,PyUnusedLocal
 class TudiViewer(TudiFrame, Iconic):
     def __init__(self, title):
         TudiFrame.__init__(self, None, -1, title=title, size=(600, 350))
@@ -62,6 +63,13 @@ class TudiViewer(TudiFrame, Iconic):
         self.threshold = None
         self.keep_warning = 1
         self.ini_file = 'tudi.ini'
+        #
+        self.id = ''
+        self.name = ''
+        self.psm = ''
+        self.coverage = ''
+        self.mr = ''
+        self.pi = ''
         #
         self.new_path = self.DEMO = 'test/test_short.tsv'
         self.datafile_path = ""
@@ -100,7 +108,7 @@ class TudiViewer(TudiFrame, Iconic):
     def get_config(self):
         """Read defaults from INI file.
         """
-        config = ConfigParser.ConfigParser()
+        config = configparser.ConfigParser()
         dirname = os.path.dirname(__file__)
 
         try:
@@ -115,7 +123,7 @@ class TudiViewer(TudiFrame, Iconic):
 
         # NoOptionError: no option.
         # NoSectionError: ini file does not exists.
-        except (ConfigParser.NoOptionError, ConfigParser.NoSectionError):
+        except (configparser.NoOptionError, configparser.NoSectionError):
             tell(("Error occurred reading %s INI file.\n"
                   "Will get defaults instead\n"
                   "Note your file must have at least 3 columns with\n"
@@ -233,7 +241,7 @@ class TudiViewer(TudiFrame, Iconic):
                 df[column] = p.Series([10] * len(df.index), index=df.index)
                 warn_about.append(column)
 
-        if not self.name in df.columns:
+        if self.name not in df.columns:
             df[self.name] = df[self.id]
             warn_about.append(self.name)
 
@@ -275,12 +283,14 @@ class TudiViewer(TudiFrame, Iconic):
         ways (i.e. as percentage / 100 or in the form xy%).
 
         """
+
+        if '%' in str(series[0]):
+            return 'symbolic'
+
         if max(series) <= 1:
             format_ = 'per_one'
         elif max(series) <= 100:
             format_ = 'percentage'
-        elif '%' in str(series[0]):
-            format_ = 'symbolic'
         else:
             format_ = None
 
@@ -306,7 +316,7 @@ class TudiViewer(TudiFrame, Iconic):
         self.threshold = threshold
         #
         try:
-            #get only proteins with minimum scans
+            # get only proteins with minimum scans
             df = self.dataframe[self.dataframe[psms] > self.threshold]
         except (KeyError, AttributeError):
             tell('%s not a tsv file or wrong column names' % self.datafile_path)
@@ -328,17 +338,17 @@ class TudiViewer(TudiFrame, Iconic):
         else:
             size = df[psms]
         #
-        #noinspection PyAugmentAssignment
+        # noinspection PyAugmentAssignment
         size = size * self.zoom
         color = df[self.coverage]
         accession = df[self.id]
         desc = df['Description']
 
-        #convert panda series to list seems necessary to work
+        # convert panda series to list seems necessary to work
         self.index = df.index.tolist()
         self.xvals = x.tolist()
         self.yvals = y.tolist()
-        #noinspection PyUnresolvedReferences
+        # noinspection PyUnresolvedReferences
         self.size = size.tolist()
         self.color = color.tolist()
         self.accession = accession.tolist()
@@ -360,7 +370,7 @@ class TudiViewer(TudiFrame, Iconic):
         self.proteins.populate()
     #
     def draw_view(self, hold=True, refresh=False):
-        """Produces a pickable scatter plot of the data with titles."""
+        """Produces a clickable scatter plot of the data with titles."""
         if refresh:
             y_win = (6, 290)
             x_win = (3, 12)
@@ -512,8 +522,8 @@ class TudiViewer(TudiFrame, Iconic):
     #
     def on_pick(self, event):
         """writes in grid table the data from the protein selected in canvas"""
-        N = len(event.ind)
-        if not N:
+        n = len(event.ind)
+        if not n:
             self.adjust_rows(0)
             return True
         self.adjust_rows(len(event.ind))
@@ -544,7 +554,7 @@ class TudiViewer(TudiFrame, Iconic):
         self.Destroy()
 #
     def on_about(self, evt):
-        "Show documentation."
+        """Show documentation."""
         if not About.exists:
             self.about = About()
             self.about.Show()

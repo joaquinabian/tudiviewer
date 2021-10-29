@@ -64,7 +64,7 @@ class TudiFrame(wx.Frame):
         self.grid_picked.SetColLabelSize(15)
         self.grid_picked.EnableEditing(0)
         self.grid_picked.EnableDragRowSize(0)
-        self.grid_picked.SetSelectionMode(wx.grid.Grid.wxGridSelectRows)
+        self.grid_picked.SetSelectionMode(wx.grid.Grid.SelectRows)
         self.grid_picked.SetColLabelValue(0, "#")
         self.grid_picked.SetColSize(0, 10)
         self.grid_picked.SetColLabelValue(1, "ID")

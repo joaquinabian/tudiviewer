@@ -18,7 +18,7 @@ from matplotlib.figure import Figure
 
 class TudiPanel(wx.Panel):
     def __init__(self, *args, **kwds):
-        self.figure = Figure(figsize = (3.5,2))   #(x,y) en inches!!
+        self.figure = Figure(figsize=(3.5, 2))   # (x,y) en inches!!
         self.axes = self.figure.add_subplot(111)
         # begin wxGlade: TudiPanel.__init__
         kwds["style"] = wx.TAB_TRAVERSAL
@@ -90,7 +90,7 @@ class TudiPanel(wx.Panel):
         sizer_3.Add(sizer_6, 0, wx.LEFT | wx.RIGHT | wx.EXPAND, 5)
         sizer_3.Add(self.bt_refresh, 0, wx.LEFT | wx.RIGHT | wx.TOP | wx.ALIGN_CENTER_VERTICAL, 7)
         sizer_1.Add(sizer_3, 0, wx.EXPAND, 0)
-        sizer_5.Add(self.toolbar, 0, wx.TOP | wx.EXPAND | wx.ALIGN_CENTER_VERTICAL, 9)
+        sizer_5.Add(self.toolbar, 0, wx.TOP | wx.EXPAND, 9)
         sizer_5.Add((55, 20), 0, wx.EXPAND, 0)
         szr_5.Add(self.lb_mr, 0, wx.LEFT | wx.RIGHT | wx.ALIGN_CENTER_VERTICAL, 5)
         szr_5.Add(self.tc_y, 0, wx.RIGHT | wx.ALIGN_CENTER_VERTICAL, 5)
@@ -108,7 +108,7 @@ class TudiPanel(wx.Panel):
             self.tc_x.SetValue('%.1f' % evt.xdata)
             self.tc_y.SetValue('%.1f' % evt.ydata)
         #
-    #noinspection PyUnusedLocal
+    # noinspection PyUnusedLocal
     def draw(self, hold=False):
         """"""
         self.axes.hold(hold)
@@ -117,8 +117,8 @@ class TudiPanel(wx.Panel):
         #
         self.canvas.draw()
 # end of class TudiPanel
-#
-#
+
+
 #
 if __name__ == '__main__':
 
@@ -130,5 +130,5 @@ if __name__ == '__main__':
 
     app = wx.PySimpleApp()
     AFrame(None, panel=TudiPanel).Show()
-    #noinspection PyUnresolvedReferences
+    # noinspection PyUnresolvedReferences
     app.MainLoop()

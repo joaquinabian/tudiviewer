@@ -75,7 +75,7 @@ class ProteinList(wx.Panel, listmix.ColumnSorterMixin):
         self.list.InsertColumn(5, "pI")
 
         for key, data in self.items:
-            index = self.list.InsertStringItem(sys.maxint, data[0])
+            index = self.list.InsertStringItem(sys.maxsize, data[0])
             #
             for idx in range(1, 6):
                 self.list.SetStringItem(index, idx, data[idx])

@@ -29,19 +29,21 @@ class MovieMaker(TudiViewer):
     def __init__(self):
         TudiViewer.__init__(self, 'MovieMaker. Press File to start generation')
         self.archives = []
-        #self.SetSize((1100, 650)) # fig of size 673x632
-        #self.SetSize((1500, 800)) # fig of size 923x819
+        # self.SetSize((1100, 650)) # fig of size 673x632
+        # self.SetSize((1500, 800)) # fig of size 923x819
         self.SetSize((1607, 808))  # fig of size 990x830 like the originals
         self.bt_file.Label = 'select file'
+        self.outdir = ''
+        self.outpath = ''
         self.starter = MovieStarter(self)
         self.Bind(wx.EVT_BUTTON, self.on_start, self.starter.bt_starter)
     #
-    #noinspection PyUnusedLocal
+    # noinspection PyUnusedLocal
     def on_start(self, evt):
         """Start batch image generation from files in current dir
         """
         path = self.cbx_file.GetValue()
-        print path
+        print(path)
         dirname = os.path.dirname(path)
         files = os.listdir(dirname)
         self.outdir = os.path.join(dirname, 'output')
@@ -71,16 +73,16 @@ class MovieMaker(TudiViewer):
         archives = '\n'.join(self.archives)
         today = datetime.date.today()
         today = today.ctime()
-        format = '%s\n%s\n\nThreshold = %s\nZoom x%s\nEqualizer = %s'
+        form = '%s\n%s\n\nThreshold = %s\nZoom x%s\nEqualizer = %s'
         values = (today, archives,
                   self.threshold, self.zoom, self.equalize_type)
-        text = format % values
+        text = form % values
 
         logfile = os.path.join(self.outdir, 'log.log')
         with open(logfile, 'w') as f:
             f.write(text)
 
-#
+
 #
 #
 if __name__ == '__main__':
