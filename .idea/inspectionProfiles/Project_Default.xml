@@ -1,8 +1,6 @@
 <component name="InspectionProjectProfileManager">
   <profile version="1.0" is_locked="false">
     <option name="myName" value="Project Default" />
-    <option name="myLocal" value="false" />
-    <inspection_tool class="PyAugmentAssignmentInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
     <inspection_tool class="PyPackageRequirementsInspection" enabled="false" level="WARNING" enabled_by_default="false">
       <option name="ignoredPackages">
         <value>
@@ -17,6 +15,7 @@
           <option value="E302" />
           <option value="E127" />
           <option value="E126" />
+          <option value="E402" />
         </list>
       </option>
     </inspection_tool>

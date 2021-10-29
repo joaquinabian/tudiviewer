@@ -14,8 +14,7 @@
       <excludeFolder url="file://$MODULE_DIR$/tee" />
       <excludeFolder url="file://$MODULE_DIR$/test" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 2.7 (C:/Python27/python.exe)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.8" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
-
