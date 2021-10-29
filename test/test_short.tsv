@@ -1,0 +1,119 @@
+Accession	Description	Sum(Coverage)	Sum(# Proteins)	Sum(# Unique Peptides)	Sum(# Peptides)	Sum(# PSMs)	# Peptides A2	# Peptides B2	# Peptides C2	# Peptides D2	# PSM A2	# PSM B2	# PSM C2	# PSM D2	Coverage A2	Coverage B2	Coverage C2	Coverage D2	Score A2	Score B2	Score C2	Score D2	# AAs	MW [kDa]	calc. pI
+P08200	Isocitrate dehydrogenase [NADP] OS=Escherichia coli (strain K12) GN=icd PE=1 SV=1 - [IDH_ECOLI]	82.21%	1	44	47	321	29	16	22	15	118	69	83	51	64.18%	42.31%	50.24%	40.14%	211.45	199.08	178.88	142.08	416	45.7	5.26
+A7ZSL4	Elongation factor Tu 1 OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=tuf1 PE=3 SV=1 - [EFTU1_ECO24]	77.16%	3	27	31	302	14	16	8	14	91	97	53	61	37.31%	56.85%	24.11%	47.72%	164.03	303.26	113.68	192.41	394	43.3	5.45
+A7ZSI4	DNA-directed RNA polymerase subunit alpha OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=rpoA PE=3 SV=1 - [RPOA_ECO24]	75.08%	1	27	30	110	13	15	13	13	30	33	26	21	34.95%	53.19%	36.17%	42.55%	26	66.48	22.62	44.57	329	36.5	5.06
+P0A957	KHG/KDPG aldolase OS=Escherichia coli O157:H7 GN=eda PE=3 SV=1 - [ALKH_ECO57]	82.63%	1	16	18	80	9	9	6	5	34	21	16	9	50.23%	46.01%	41.78%	20.19%	69.38	45.51	27.57	18.07	213	22.3	5.67
+A7ZPS1	Phosphoribosylaminoimidazole-succinocarboxamide synthase OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=purC PE=3 SV=1 - [PUR7_ECO24]	70.89%	2	18	20	80	6	11	7	12	13	25	15	27	20.25%	56.12%	27.85%	61.18%	18.05	72.62	23.03	80.02	237	27	5.16
+P0AE10	Alkyl hydroperoxide reductase subunit C OS=Escherichia coli O157:H7 GN=ahpC PE=3 SV=2 - [AHPC_ECO57]	62.57%	1	15	17	73	6	11	4	7	13	30	9	21	32.09%	59.36%	21.39%	42.78%	11.81	90.54	4.19	65.81	187	20.7	5.17
+P0A698	UvrABC system protein A OS=Escherichia coli (strain K12) GN=uvrA PE=1 SV=1 - [UVRA_ECOLI]	12.02%	3	3	11	72		1	8	3		1	67	4		1.28%	9.68%	3.83%		0	2.85	4.14	940	103.8	6.64
+A7ZJA8	Succinyl-CoA ligase [ADP-forming] subunit beta OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=sucC PE=3 SV=1 - [SUCC_ECO24]	36.08%	2	14	16	54	5	10	4	9	7	23	5	19	13.92%	28.87%	8.51%	24.74%	11.23	56.08	10.89	45.42	388	41.4	5.52
+A7ZPK7	Glutamate--tRNA ligase OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=gltX PE=3 SV=1 - [SYE_ECO24]	30.36%	6	2	15	50	5	7	5	8	6	14	9	21	12.10%	18.90%	11.25%	19.96%	12.08	12.53	13.1	11.07	471	53.8	5.94
+A7ZNT3	Methionine--tRNA ligase OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=metG PE=3 SV=1 - [SYM_ECO24]	32.79%	10	19	25	48	9	11	7	13	11	12	8	17	12.85%	16.99%	11.82%	18.91%	17.32	21.62	16.86	34.92	677	76.2	5.86
+P27302	Transketolase 1 OS=Escherichia coli (strain K12) GN=tktA PE=1 SV=5 - [TKT1_ECOLI]	37.10%	1	17	24	44	10	9	9	8	12	10	13	9	19.16%	15.08%	16.14%	11.46%	13.59	17.39	23.05	19.81	663	72.2	5.67
+P30178	Uncharacterized oxidoreductase ybiC OS=Escherichia coli (strain K12) GN=ybiC PE=1 SV=2 - [YBIC_ECOLI]	36.57%	2	10	14	44	8	3	10	3	14	3	23	4	21.61%	14.13%	26.87%	11.08%	19.67	6.4	33.01	6.5	361	38.9	6.43
+C4ZQF0	Aspartate--tRNA ligase OS=Escherichia coli (strain K12 / MC4100 / BW2952) GN=aspS PE=3 SV=1 - [SYD_ECOBW]	29.66%	8	12	18	42	5	10	3	10	8	15	4	15	8.81%	19.83%	5.93%	17.97%	9.78	33.77	4.18	27.82	590	65.9	5.69
+P0ACG0	DNA-binding protein H-NS OS=Escherichia coli O157:H7 GN=hns PE=3 SV=2 - [HNS_ECO57]	68.61%	1	10	10	39	3	7		6	9	19		11	23.36%	55.47%		55.47%	1.77	66.44		33.87	137	15.5	5.47
+P23839	UPF0701 protein yicC OS=Escherichia coli (strain K12) GN=yicC PE=1 SV=2 - [YICC_ECOLI]	10.80%	1	1	3	39	3		1		21		18		10.80%		4.18%		6.75		5.25		287	33.2	5.12
+P33570	Transketolase 2 OS=Escherichia coli (strain K12) GN=tktB PE=1 SV=1 - [TKT2_ECOLI]	25.79%	1	8	14	38	7	5	7	6	9	7	10	12	13.34%	9.75%	14.09%	10.94%	12.68	4.25	18.81	9.21	667	73	6.29
+A7ZMI2	Phenylalanine--tRNA ligase alpha subunit OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=pheS PE=3 SV=1 - [SYFA_ECO24]	38.53%	2	11	16	37	6	7	3	8	10	7	6	14	23.85%	21.41%	13.15%	24.46%	13.06	15.4	14.15	29.59	327	36.8	6.2
+P07023	T-protein OS=Escherichia coli (strain K12) GN=tyrA PE=1 SV=1 - [TYRA_ECOLI]	37.00%	1	12	15	37	5	9	2	7	9	12	5	11	14.48%	23.86%	5.09%	17.69%	5.51	20.71	0	9.32	373	42	6.01
+Q0TF64	Glutamate--tRNA ligase OS=Escherichia coli O6:K15:H31 (strain 536 / UPEC) GN=gltX PE=3 SV=1 - [SYE_ECOL5]	28.66%	1	1	14	36	5	6	5	7	6	13	8	9	11.68%	17.20%	10.83%	18.26%	9.81	10.22	10.79	8.42	471	53.8	6.01
+P33599	NADH-quinone oxidoreductase subunit C/D OS=Escherichia coli (strain K12) GN=nuoC PE=1 SV=3 - [NUOCD_ECOLI]	22.82%	7	10	14	35		8	3	9		12	6	17		13.76%	5.54%	14.09%		20.6	1.72	34.98	596	68.2	6.42
+Q8X7B6	Tryptophan synthase beta chain OS=Escherichia coli O157:H7 GN=trpB PE=3 SV=3 - [TRPB_ECO57]	42.07%	6	8	14	32	8	4	6	2	8	8	7	9	25.94%	11.08%	18.39%	4.28%	13.05	2.81	4.84	0	397	43	6.09
+Q8XD57	Lysine--tRNA ligase OS=Escherichia coli O157:H7 GN=lysS PE=3 SV=3 - [SYK1_ECO57]	33.86%	4	11	19	32	8	4	8	3	10	4	11	7	15.05%	7.92%	13.07%	5.74%	2.31	9.73	14.57	6.24	505	57.6	5.24
+P16694	Uncharacterized protein yjdA OS=Escherichia coli (strain K12) GN=yjdA PE=4 SV=2 - [YJDA_ECOLI]	14.96%	1	1	11	32	3	4	5	3	11	6	8	7	3.91%	6.47%	7.28%	3.77%	1.62	3.93	0	0	742	84.3	5.85
+P00934	Threonine synthase OS=Escherichia coli (strain K12) GN=thrC PE=1 SV=1 - [THRC_ECOLI]	38.08%	1	13	15	30	6	8	4	6	8	11	4	7	17.52%	23.36%	15.65%	15.19%	11.93	26.06	6.44	12.07	428	47.1	5.4
+P77804	Protein ydgA OS=Escherichia coli (strain K12) GN=ydgA PE=1 SV=1 - [YDGA_ECOLI]	29.48%	1	10	16	29	8	1	8	4	11	1	13	4	19.92%	1.99%	16.73%	8.37%	6.29	3.06	10.48	8.85	502	54.7	5.17
+P0A869	Transaldolase A OS=Escherichia coli O157:H7 GN=talA PE=3 SV=1 - [TALA_ECO57]	27.22%	1	8	10	29	3	6		7	13	7		9	7.59%	19.30%		22.15%	1.79	16.01		16.63	316	35.6	6.27
+A7ZIT5	Cysteine--tRNA ligase OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=cysS PE=3 SV=1 - [SYC_ECO24]	25.16%	8	5	10	29	3	3	3	6	3	16	3	7	6.51%	10.63%	6.94%	18.00%	1.64	3.35	1.87	10.83	461	52.2	5.57
+A7ZMI4	50S ribosomal protein L20 OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=rplT PE=3 SV=1 - [RL20_ECO24]	33.90%	1	7	7	28		3	1	6		9	1	18		22.88%	7.63%	33.90%		7.1	1.97	22.07	118	13.5	11.47
+P39321	Translocation and assembly module TamB OS=Escherichia coli (strain K12) GN=tamB PE=1 SV=2 - [TAMB_ECOLI]	16.52%	1	3	14	28	5	3	7	3	9	4	11	4	6.35%	2.38%	10.17%	2.14%	0	1.71	0	0	1259	136.7	5.08
+B7LQ71	Threonine--tRNA ligase OS=Escherichia fergusonii (strain ATCC 35469 / DSM 13698 / CDC 0568-73) GN=thrS PE=3 SV=1 - [SYT_ESCF3]	26.64%	5	8	18	27	7	5	6	4	9	5	9	4	12.15%	7.32%	8.88%	6.54%	3.7	7.91	6.13	9.68	642	74	6.19
+B7L7S9	Arginine--tRNA ligase OS=Escherichia coli (strain 55989 / EAEC) GN=argS PE=3 SV=1 - [SYR_ECO55]	30.16%	13	7	15	26	2	5	5	6	3	7	8	8	3.64%	9.88%	9.01%	12.48%	0	3.66	0	7.82	577	64.7	5.55
+A7ZUI2	Soluble pyridine nucleotide transhydrogenase OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=sthA PE=3 SV=1 - [STHA_ECO24]	23.39%	7	5	12	26	5	5	5	3	10	5	7	4	11.80%	11.16%	11.59%	5.79%	2.56	6.39	5.31	6.75	466	51.5	6.57
+P0AGF1	Succinyl-CoA ligase [ADP-forming] subunit alpha OS=Escherichia coli O157:H7 GN=sucD PE=3 SV=2 - [SUCD_ECO57]	28.37%	1	7	8	24	1	5	2	6	2	10	3	9	6.23%	18.34%	10.73%	23.88%	7.27	15.17	6.6	21.64	289	29.8	6.79
+P00895	Anthranilate synthase component 1 OS=Escherichia coli (strain K12) GN=trpE PE=1 SV=2 - [TRPE_ECOLI]	25.58%	1	8	14	24	4	5	3	7	5	6	4	9	8.65%	8.85%	6.73%	12.50%	3.99	5.09	6	12.82	520	57.5	5.52
+A7ZHB5	Isoleucine--tRNA ligase OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=ileS PE=3 SV=1 - [SYI_ECO24]	22.81%	11	11	21	24	6	8	7	2	7	8	7	2	7.57%	10.55%	6.50%	2.13%	11.27	6.69	2.35	3.1	938	104.2	6.01
+P33790	Protein traG OS=Escherichia coli (strain K12) GN=traG PE=4 SV=1 - [TRAG1_ECOLI]	16.10%	1	1	10	24	4		3	4	10		7	7	10.34%		3.20%	5.86%	0		0	3.38	938	102.4	6.34
+P07118	Valine--tRNA ligase OS=Escherichia coli (strain K12) GN=valS PE=1 SV=2 - [SYV_ECOLI]	16.72%	3	7	14	23	3	8	3	3	3	12	4	4	3.26%	10.83%	3.15%	2.84%	4.35	11.03	3.47	3.48	951	108.1	5.34
+C4ZWC9	Leucine--tRNA ligase OS=Escherichia coli (strain K12 / MC4100 / BW2952) GN=leuS PE=3 SV=1 - [SYL_ECOBW]	15.00%	14	10	11	23		8	2	8		11	2	10		10.23%	3.84%	10.58%		26.08	1.75	23.56	860	97.2	5.3
+A7ZTA6	Glycine--tRNA ligase alpha subunit OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=glyQ PE=3 SV=1 - [SYGA_ECO24]	36.96%	2	11	13	22	5	4	5	5	5	4	7	6	14.85%	18.81%	19.80%	20.13%	8.55	9.26	12.46	9.1	303	34.7	5.05
+A7ZM99	Tyrosine--tRNA ligase OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=tyrS PE=3 SV=1 - [SYY_ECO24]	32.78%	5	11	14	22	4	6	4	6	4	7	4	7	8.25%	16.51%	9.20%	18.63%	5.86	17.66	4.41	18.13	424	47.5	5.81
+B6I3C9	Glycine--tRNA ligase beta subunit OS=Escherichia coli (strain SE11) GN=glyS PE=3 SV=1 - [SYGB_ECOSE]	22.64%	7	5	15	22	10	3		4	13	3		6	16.55%	4.50%		6.10%	3.83	4.68		0	689	76.7	5.44
+A1AEN7	Alanine--tRNA ligase OS=Escherichia coli O1:K1 / APEC GN=alaS PE=3 SV=1 - [SYA_ECOK1]	15.75%	8	8	14	22	6	7		4	7	10		5	6.62%	9.13%		5.14%	0	23.03		12.6	876	95.9	5.81
+B7L492	Tryptophan synthase alpha chain OS=Escherichia coli (strain 55989 / EAEC) GN=trpA PE=3 SV=1 - [TRPA_ECO55]	32.84%	14	7	10	20	5	4	4	1	9	4	6	1	14.55%	19.03%	15.30%	4.10%	11.62	10.54	5.9	2.05	268	28.7	5.48
+P0A3B2	GTP-binding protein TypA/BipA OS=Escherichia coli O127:H6 (strain E2348/69 / EPEC) GN=typA PE=3 SV=1 - [TYPA_ECO27]	20.10%	1	7	13	20	5	3	4	4	6	3	7	4	8.07%	6.10%	8.40%	6.10%	6.2	8.09	4.65	5.6	607	67.3	5.33
+P13458	Nuclease sbcCD subunit C OS=Escherichia coli (strain K12) GN=sbcC PE=1 SV=1 - [SBCC_ECOLI]	11.35%	1	2	11	20		6	3	4		10	3	7		7.25%	2.67%	3.44%		0	1.74	0	1048	118.6	5.68
+P37051	Formyltetrahydrofolate deformylase OS=Escherichia coli (strain K12) GN=purU PE=1 SV=1 - [PURU_ECOLI]	31.43%	2	6	8	18		5	2	5		9	2	7		22.50%	8.57%	20.36%		15.87	2.55	5.96	280	31.9	7.01
+A7ZTI8	50S ribosomal protein L28 OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=rpmB PE=3 SV=1 - [RL28_ECO24]	23.08%	1	2	2	18		2		2		10		8		23.08%		23.08%		25.21		18.74	78	9	11.41
+P03014	DNA-invertase from lambdoid prophage e14 OS=Escherichia coli (strain K12) GN=pinE PE=3 SV=2 - [PINE_ECOLI]	20.65%	1	1	3	18		2		2		8		10		16.30%		14.67%		16.29		24.12	184	20.6	9.92
+P45527	Uncharacterized protease yhbU OS=Escherichia coli (strain K12) GN=yhbU PE=1 SV=1 - [YHBU_ECOLI]	16.31%	1	2	5	18	2	3	2		4	4	10		6.65%	9.67%	6.65%		7.78	0	19.19		331	37	7.12
+P39393	Putative uncharacterized protein yjiV OS=Escherichia coli (strain K12) GN=yjiV PE=5 SV=3 - [YJIV_ECOLI]	10.82%	1	1	8	18	4	2	4		6	8	4		6.07%	2.65%	4.86%		0	1.73	0		906	103.3	6.19
+P0A9W4	Uncharacterized ABC transporter ATP-binding protein YjjK OS=Escherichia coli O157:H7 GN=yjjK PE=3 SV=2 - [YJJK_ECO57]	20.90%	1	8	12	17	5	7		1	7	8		2	10.09%	13.15%		1.62%	6.37	10.53		4.06	555	62.4	5.6
+P0ACY5	Uncharacterized protein yeaG OS=Escherichia coli O157:H7 GN=yeaG PE=3 SV=1 - [YEAG_ECO57]	19.88%	1	5	11	17	6	3	5		6	4	7		9.16%	5.90%	9.47%		4.96	2.34	7.63		644	74.4	5.85
+P46009	Outer membrane usher protein focD OS=Escherichia coli GN=focD PE=3 SV=1 - [FOCD_ECOLX]	11.89%	1	1	6	17		4	1	3		9	1	7		6.17%	2.17%	5.94%		7.16	0	4	875	96.2	7.2
+A7ZUD3	Triosephosphate isomerase OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=tpiA PE=3 SV=1 - [TPIS_ECO24]	31.37%	1	7	7	16	5	1	2	2	7	1	4	4	25.88%	3.53%	13.33%	8.24%	7.44	2.75	5.05	4.77	255	27	5.96
+A7ZTP5	Protein CbrA OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=cbrA PE=3 SV=1 - [CBRA_ECO24]	18.93%	7	1	7	16		5		5		7		9		13.28%		14.97%		5.39		3.77	354	40.1	9.41
+P46837	Protein yhgF OS=Escherichia coli (strain K12) GN=yhgF PE=1 SV=3 - [YHGF_ECOLI]	16.56%	1	3	11	16	3	5	2	3	3	7	2	4	4.92%	6.34%	2.98%	5.05%	2.34	5.76	0	7.26	773	85.1	6.3
+A7ZJ63	Glutamine--tRNA ligase OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=glnS PE=3 SV=1 - [SYQ_ECO24]	16.43%	5	5	9	16	5	4	4	2	5	4	4	3	9.57%	6.86%	7.94%	3.43%	2.5	2.03	2.55	1.88	554	63.4	6.28
+B7UMM8	Dihydroxy-acid dehydratase OS=Escherichia coli O127:H6 (strain E2348/69 / EPEC) GN=ilvD PE=3 SV=1 - [ILVD_ECO27]	12.18%	14	2	7	16		4	2	2		9	4	3		5.19%	5.36%	3.41%		2.1	0	2.65	616	65.5	5.9
+P18004	Protein traC OS=Escherichia coli (strain K12) GN=traC PE=1 SV=1 - [TRAC_ECOLI]	11.43%	1	1	8	16	2	1	5	2	5	2	6	3	3.77%	1.71%	8.23%	1.49%	2.22	0	2.01	0	875	99.1	6.02
+C4ZRT7	Proline--tRNA ligase OS=Escherichia coli (strain K12 / MC4100 / BW2952) GN=proS PE=3 SV=1 - [SYP_ECOBW]	24.65%	9	2	12	15	6	3		3	6	4		5	14.86%	9.79%		5.07%	0	2.6		5.15	572	63.7	5.24
+B7MYK8	tRNA1(Val) (adenine(37)-N6)-methyltransferase OS=Escherichia coli O81 (strain ED1a) GN=yfiC PE=3 SV=1 - [TRMN6_ECO81]	16.73%	2	1	2	15	1		2		7		8		13.06%		16.73%		0		0		245	27.2	5.05
+P76578	Uncharacterized lipoprotein yfhM OS=Escherichia coli (strain K12) GN=yfhM PE=4 SV=1 - [YFHM_ECOLI]	6.23%	1	1	11	15		4	7			6	9			2.84%	3.45%	0.00%		0	0		1653	181.5	5.43
+A7ZPV7	Histidine--tRNA ligase OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=hisS PE=3 SV=1 - [SYH_ECO24]	18.87%	6	8	9	14	2	1	5	4	2	2	6	4	4.25%	2.12%	11.56%	11.32%	2.22	3.57	4.95	9.09	424	47	5.91
+A7ZI01	Glutamate 5-kinase OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=proB PE=3 SV=1 - [PROB_ECO24]	18.53%	2	5	7	14		6		6		6		8		15.53%		15.53%		12.14		6.59	367	39	6.54
+P0AGG9	Protein tldD OS=Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) GN=tldD PE=3 SV=1 - [TLDD_ECOL6]	12.89%	1	1	5	14	2	2	1	1	5	2	5	2	8.94%	4.16%	3.12%	2.08%	1.67	0	5.44	0	481	51.3	5.06
+O33952	UDP-glucose 6-dehydrogenase OS=Escherichia coli GN=ugd PE=3 SV=1 - [UDG8_ECOLX]	11.08%	1	1	6	14	4		5		7		7		11.08%		10.05%		3.73		4.01		388	43.5	6.14
+E3PJ90	Putative lipoprotein AcfD homolog OS=Escherichia coli O78:H11 (strain H10407 / ETEC) GN=yghJ PE=4 SV=1 - [ACFD_ECOH1]	10.53%	1	1	10	14			6	4			8	6			4.81%	5.73%			2.08	0	1519	167.9	5.06
+P0A864	Thiol peroxidase OS=Escherichia coli O157:H7 GN=tpx PE=3 SV=2 - [TPX_ECO57]	39.88%	1	4	5	13	2	3		2	3	6		4	16.07%	23.81%		13.10%	1.81	22.11		10.15	168	17.8	4.92
+P04693	Aromatic-amino-acid aminotransferase OS=Escherichia coli (strain K12) GN=tyrB PE=1 SV=1 - [TYRB_ECOLI]	18.39%	1	6	7	13		6		4		7		6		16.37%		9.32%		13.04		13.68	397	43.5	5.48
+P02978	Colicin-E1 OS=Escherichia coli GN=cea PE=1 SV=1 - [CEA1_ECOLX]	15.71%	1	1	9	13			5	4			6	7			8.24%	7.47%			3.74	0	522	57.2	9.31
+P00904	Anthranilate synthase component II OS=Escherichia coli (strain K12) GN=trpD PE=1 SV=3 - [TRPG_ECOLI]	15.44%	1	5	7	13	7		5		8		5		15.44%		9.79%		10.65		9.57		531	56.8	6.52
+P0A7B2	Polyphosphate kinase OS=Escherichia coli O157:H7 GN=ppk PE=3 SV=2 - [PPK_ECO57]	9.01%	2	3	6	13		2	2	3		3	7	3		3.05%	3.05%	4.22%		0	0	1.82	688	80.4	8.92
+P21499	Ribonuclease R OS=Escherichia coli (strain K12) GN=rnr PE=1 SV=2 - [RNR_ECOLI]	8.12%	1	2	7	13		2	3	4		3	3	7		2.34%	3.69%	4.43%		2.81	1.76	0	813	92.1	8.62
+P10443	DNA polymerase III subunit alpha OS=Escherichia coli (strain K12) GN=dnaE PE=1 SV=1 - [DPO3A_ECOLI]	3.36%	3	2	4	13		4		3		8		5		3.36%		2.41%		2.53		5.08	1160	129.8	5.31
+P0A9P5	Thioredoxin reductase OS=Escherichia coli O157:H7 GN=trxB PE=3 SV=2 - [TRXB_ECO57]	28.35%	1	5	7	12	3	3	2	3	3	3	2	4	13.40%	10.28%	6.85%	11.21%	5.91	5.65	1.89	2.79	321	34.6	5.5
+A7ZPU1	Uracil phosphoribosyltransferase OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=upp PE=3 SV=1 - [UPP_ECO24]	23.08%	2	4	5	12	3	2	2	1	5	4	2	1	11.54%	11.54%	6.73%	3.85%	5	11.96	3.46	1.93	208	22.5	5.47
+A7ZIH7	tRNA sulfurtransferase OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=thiI PE=3 SV=1 - [THII_ECO24]	15.56%	10	5	10	12	3	4	1	4	3	4	1	4	4.56%	8.71%	1.66%	8.71%	1.84	6.1	1.7	4.39	482	55	6.61
+P33924	Putative uncharacterized outer membrane protein YejO OS=Escherichia coli (strain K12) GN=yejO PE=5 SV=1 - [YEJO_ECOLI]	9.62%	1	1	9	12	5		5		6		6		6.49%		5.21%		0		0		863	91.1	4.88
+A7ZR88	Probable Fe(2+)-trafficking protein OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=yggX PE=3 SV=1 - [FETP_ECO24]	65.93%	2	6	8	11	4	4			7	4			37.36%	58.24%			6.65	8.22			91	10.9	6.3
+P0AG32	Transcription termination factor Rho OS=Escherichia coli O157:H7 GN=rho PE=3 SV=1 - [RHO_ECO57]	26.97%	1	7	9	11		8		2		9		2		24.34%		5.01%		10.1		6.12	419	47	7.25
+A7ZPV4	GTPase Der OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=der PE=3 SV=1 - [DER_ECO24]	18.16%	6	2	8	11		6		4		6		5		14.90%		10.00%		4.59		2.59	490	55	5.85
+P24171	Peptidyl-dipeptidase dcp OS=Escherichia coli (strain K12) GN=dcp PE=1 SV=4 - [DCP_ECOLI]	17.33%	1	4	10	11		1	6	3		1	7	3		1.62%	8.22%	7.49%		2.35	0	2.26	681	77.5	5.74
+Q46863	Putative binding protein ygiS OS=Escherichia coli (strain K12) GN=ygiS PE=1 SV=1 - [YGIS_ECOLI]	17.20%	1	1	7	11	6		3		7		4		16.82%		8.97%		2.02		0		535	60.7	6.81
+P0AGC4	Soluble lytic murein transglycosylase OS=Escherichia coli O157:H7 GN=slt PE=3 SV=1 - [SLT_ECO57]	12.09%	1	1	6	11		4	2	1		7	2	2		8.53%	3.57%	2.95%		1.78	0	0	645	73.3	8.78
+P33346	Uncharacterized protein yehI OS=Escherichia coli (strain K12) GN=yehI PE=4 SV=2 - [YEHI_ECOLI]	2.81%	1	1	4	11		3		2		7		4		1.90%		1.32%		0		0	1210	138	6.65
+P0AF96	Toxin-antitoxin biofilm protein TabA OS=Escherichia coli (strain K12) GN=tabA PE=1 SV=1 - [TABA_ECOLI]	42.00%	1	4	6	10	5	1	1		7	2	1		31.33%	10.67%	6.00%		9.6	7.7	2.38		150	16.9	5.52
+A7ZJW2	Serine--tRNA ligase OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=serS PE=3 SV=1 - [SYS_ECO24]	14.42%	2	3	7	10	3	2	3	2	3	2	3	2	7.67%	4.65%	5.58%	4.65%	2.52	5.51	2	4.57	430	48.4	5.5
+Q8X7B7	Tryptophan biosynthesis protein TrpCF OS=Escherichia coli O157:H7 GN=trpC PE=3 SV=2 - [TRPC_ECO57]	10.40%	2	4	4	10	3		3	1	5		4	1	7.96%		7.96%	2.43%	5.53		6.71	2.6	452	49.3	5.71
+P09130	Coupling protein TraD OS=Escherichia coli (strain K12) GN=traD PE=1 SV=4 - [TRAD1_ECOLI]	4.46%	2	1	3	10	1	2		1	1	5		4	1.26%	3.21%		1.67%	0	0		2.07	717	81.4	5.4
+P0AGD5	Superoxide dismutase [Fe] OS=Escherichia coli O157:H7 GN=sodB PE=3 SV=2 - [SODF_ECO57]	25.91%	1	5	5	9		3	2	1		5	2	2		17.62%	13.47%	3.63%		7.8	2.91	2.18	193	21.3	5.95
+P76550	Uncharacterized protein yffS OS=Escherichia coli (strain K12) GN=yffS PE=4 SV=2 - [YFFS_ECOLI]	24.16%	1	2	6	9		5	1	1		6	2	1		24.16%	4.83%	4.09%		1.88	0	2.17	269	29.7	5.52
+Q46871	NADPH-dependent ferric-chelate reductase OS=Escherichia coli (strain K12) GN=yqjH PE=1 SV=1 - [YQJH_ECOLI]	15.35%	1	1	2	9		2		1		6		3		15.35%		3.94%		0		0	254	28.9	5.83
+P00579	RNA polymerase sigma factor rpoD OS=Escherichia coli (strain K12) GN=rpoD PE=1 SV=2 - [RPOD_ECOLI]	13.21%	1	3	7	9		3	3	2		3	4	2		8.32%	3.75%	3.43%		4.33	2.19	3.82	613	70.2	4.79
+A7ZK52	Ribosomal RNA large subunit methyltransferase L OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=rlmL PE=3 SV=1 - [RLML_ECO24]	8.26%	3	1	6	9		1	1	5		1	1	7		1.28%	1.71%	6.55%		0	2.69	0	702	78.7	8.82
+P32674	Formate acetyltransferase 2 OS=Escherichia coli (strain K12) GN=pflD PE=3 SV=1 - [PFLD_ECOLI]	8.10%	1	1	5	9		3		4		3		6		5.23%		6.93%		2.07		4.91	765	85.9	5.91
+P00954	Tryptophan--tRNA ligase OS=Escherichia coli (strain K12) GN=trpS PE=1 SV=3 - [SYW_ECOLI]	31.44%	2	1	7	8	3	1	2	2	3	1	2	2	13.47%	2.40%	12.87%	8.38%	0	0	0	3.31	334	37.4	6.74
+B7LWC4	UPF0325 protein yaeH OS=Escherichia fergusonii (strain ATCC 35469 / DSM 13698 / CDC 0568-73) GN=yaeH PE=3 SV=1 - [YAEH_ESCF3]	29.69%	3	3	4	8	1	2	2		2	2	4		8.59%	17.19%	15.63%		1.72	4.83	5.5		128	15.1	7.18
+P39285	Uncharacterized MscS family protein YjeP OS=Escherichia coli (strain K12) GN=yjeP PE=3 SV=3 - [YJEP_ECOLI]	8.13%	1	1	6	8	2	3		3	2	3		3	4.16%	3.16%		3.07%	0	0		0	1107	123.9	7.01
+P67176	Probable transcriptional regulatory protein YebC OS=Escherichia coli O157:H7 GN=yebC PE=3 SV=1 - [YEBC_ECO57]	21.54%	2	2	5	7	5		2		5		2		21.54%		13.01%		2.9		0		246	26.4	4.88
+B7UM99	Translocated intimin receptor Tir OS=Escherichia coli O127:H6 (strain E2348/69 / EPEC) GN=tir PE=1 SV=1 - [TIR_ECO27]	4.00%	1	1	3	7	1	2		1	1	4		2	2.00%	3.82%		2.18%	0	6.13		4.44	550	56.5	5.07
+A7ZPA8	UPF0304 protein yfbU OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=yfbU PE=3 SV=1 - [YFBU_ECO24]	26.22%	3	5	5	6	2	3			2	4			20.73%	17.07%			4.42	9.81			164	19.6	6.8
+A7ZHC0	Dihydrodipicolinate reductase OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=dapB PE=3 SV=1 - [DAPB_ECO24]	25.27%	6	3	5	6		1	2	3		1	2	3		5.13%	10.26%	15.02%		3.51	0	9.25	273	28.7	5.76
+Q9JMS5	Uncharacterized protein YuaO OS=Escherichia coli (strain K12) GN=yuaO PE=4 SV=1 - [YUAO_ECOLI]	6.48%	1	1	6	6	6				6				6.48%				2.1				1758	182.5	4.87
+Q8FB22	Replicative DNA helicase OS=Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) GN=dnaB PE=3 SV=2 - [DNAB_ECOL6]	5.73%	1	1	2	6		2		1		5		1		5.73%		3.18%		5.54		1.69	471	52.4	5.06
+Q8XA83	tRNA (cytidine/uridine-2'-O-)-methyltransferase TrmJ OS=Escherichia coli O157:H7 GN=trmJ PE=3 SV=1 - [TRMJ_ECO57]	18.37%	3	3	4	5	2	2		1	2	2		1	9.80%	8.57%		4.08%	4.41	2.15		2.45	245	26.9	6.21
+A7ZIJ4	Trigger factor OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=tig PE=3 SV=1 - [TIG_ECO24]	12.73%	5	2	5	5	1			4	1			4	3.01%			9.72%	0			2.46	432	48.1	4.88
+P76463	Uncharacterized protein yfaQ OS=Escherichia coli (strain K12) GN=yfaQ PE=4 SV=1 - [YFAQ_ECOLI]	6.74%	1	1	3	5	1	2		1	1	3		1	3.46%	3.28%		1.64%	0	1.94		1.79	549	61.4	8.24
+A7ZHZ9	Sigma factor-binding protein crl OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=crl PE=3 SV=1 - [CRL_ECO24]	18.80%	9	2	2	4				2				4				18.80%				4.91	133	15.6	5.94
+P0ACL0	Glycerol-3-phosphate regulon repressor OS=Escherichia coli (strain K12) GN=glpR PE=1 SV=1 - [GLPR_ECOLI]	18.65%	1	2	4	4		2		2		2		2		9.13%		9.52%		3.77		0	252	28	6.27
+A7ZHK8	UPF0231 protein yacL OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=yacL PE=3 SV=1 - [YACL_ECO24]	17.50%	5	2	2	3	1		2		1		2		10.00%		17.50%		0		1.94		120	13.9	4.51
+B1LJ04	Curved DNA-binding protein OS=Escherichia coli (strain SMS-3-5 / SECEC) GN=cbpA PE=3 SV=1 - [CBPA_ECOSM]	15.03%	4	1	2	3				2				3				15.03%				0	306	34.4	6.81
+A1AI26	Sec-independent protein translocase protein TatB OS=Escherichia coli O1:K1 / APEC GN=tatB PE=3 SV=1 - [TATB_ECOK1]	12.28%	3	1	2	3		2				3				12.28%				2.49			171	18.4	5.22
+P64623	Uncharacterized protein yhdV OS=Escherichia coli O157:H7 GN=yhdV PE=4 SV=1 - [YHDV_ECO57]	36.99%	1	1	1	2	1		1		1		1		36.99%		36.99%		0		0		73	7.4	7.24
+P64484	Uncharacterized protein yeaK OS=Escherichia coli O157:H7 GN=yeaK PE=4 SV=1 - [YEAK_ECO57]	23.35%	1	1	2	2	2				2				23.35%				0				167	17.8	7.02
+P21363	Protein yciE OS=Escherichia coli (strain K12) GN=yciE PE=1 SV=1 - [YCIE_ECOLI]	17.86%	1	1	2	2	2				2				17.86%	0.00%			3.75				168	18.9	5.03
+P0A990	DNA polymerase III subunit beta OS=Escherichia coli O157:H7 GN=dnaN PE=3 SV=1 - [DPO3B_ECO57]	2.19%	1	1	1	1			1				1				2.19%				2.27		366	40.6	5.39
+A7ZHI7	UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=lpxC PE=3 SV=1 - [LPXC_ECO24]	1.97%	3	1	1	1			1				1				1.97%				1.68		305	33.9	5.86
+P0AGA4	Protein translocase subunit SecY OS=Escherichia coli O157:H7 GN=secY PE=3 SV=1 - [SECY_ECO57]	1.58%	1	1	1	1				1				1				1.58%				1.67	443	48.5	9.89

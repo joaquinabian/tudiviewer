@@ -1,0 +1,64 @@
+
+TEE is a Unix-like T pipe connection for DOS and works like all other
+text filters.
+
+A pipe is a series of command or device redirections, by means of |,
+>, >> or <. For instance:
+
+type file.txt | sort /r > prn
+sort < file.txt | find /i "Something" >> myfinds.txt
+
+are pipes.
+
+Tee, like a T connector, diverts a copy of the contents of the "main
+pipe", at the point where it was placed, to a file.
+
+If no T file is specified, it writes or appends to a file named
+tee.out. It recognizes the '-a' (append) option, and by default
+overwrites the T file. Option '-i' is not supported.
+
+Generic syntax: [pipe] | TEE [-a] [teefile] [ | pipe]
+                TEE [-a] [teefile] < inputfile [ | pipe]
+
+Examples:
+
+
+type < infile.txt |tee
+
+tee < infile.txt
+
+Writes the contents of file infile.txt both to default file tee.out,
+overwriting it, and to the standard output (monitor).
+
+
+type < infile.txt | tee -a
+
+tee -a < infile.txt
+
+Appends the contents of file infile.txt to default file tee.out and
+displays infile.txt to the standard output (monitor).
+
+
+type < infile.txt | tee testfile.txt > lpt1
+
+Writes the contents of file infile.txt to file testfile.txt and writes
+infile.txt to the LPT1 serial port (printer 1.)
+
+
+type < infile.txt | tee -a file1.txt | sort > outfile.txt
+
+Appends the contents of file infile.txt to file file1.txt, the file is
+sorted and the result written to outfile.txt.
+
+
+tee file1.txt < infile.txt | sort | tee -a file2.txt | sort /r > prn
+
+Writes infile.txt to file1.txt, sorts infile.txt, appends the result
+to file2.txt, sorts the result in reverse order and writes it to
+the printer (LPT1).
+
+TEE is user-supported freeware with ANSI C source and a MS-DOS
+executable.
+
+
+

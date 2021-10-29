@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <link rel="canonical" href="http://code.google.com/p/lp-csic-uab/wiki/KimBlast">
+    <title>KimBlast - lp-csic-uab - GUI based, Python application
+      optimized to perform Blast searches on peptides and peptide tags
+      derived from mass spectrometry sequencing in proteomics
+      experiments. - Software and Documents from LP CSIC/UAB - Google
+      Project Hosting</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="Geany 0.20">
+  </head>
+  <body>
+    <p><img src="tudi1.png" alt="tudi" title="tudi"></p>
+    <p><strong>Table Of Contents:</strong></p>
+    <ul>
+      <li><a href="#Description">Description</a></li>
+      <li><a href="#Features">Features</a></li>
+      <li><a href="#Installation">Installation</a>
+        <ul>
+          <li><a href="#Requirements">Requirements</a></li>
+          <li><a href="#From_Installer">From Installer</a></li>
+          <li><a href="#From_Source">From Source</a></li>
+        </ul>
+      </li>
+      <li><a href="#Input File Format">Input
+          File Format</a></li>
+      <li><a href="#Download">Download</a></li>
+      <li><a href="#Change-Log">Change-Log</a></li>
+      <li><a href="#To-Do">To-Do</a></li>
+      <li><a href="#Contribute">Contribute</a></li>
+    </ul>
+    <p>&nbsp;</p>
+    <h4><a name="Description"></a>Description</h4>
+    <span style="font-weight: normal;">TUDIVIEWER is a tool for the
+      visualization of protein collections obtained from Thermo Protein
+      Discoverer.</span><br>
+    <strong><tt></tt></strong>
+    <p></p>
+    <p><img src="tudi_main.png" alt=" "></p>
+    <h4><a name="Features"></a>Features</h4>
+    <ul>
+      <li>Accepts .XLS, XLSX, CSV and TSV input files</li>
+      <li>Represents, in 2D gel-like format, LCMSMS identification data</li>
+      <li>Zooming of views</li>
+      <li>Diverse transforms (log2, square root, square) to equalize
+        data in viewer.</li>
+      <li>Search by protein accession or name</li>
+    </ul>
+    <p><img style="width: 858px; height: 590px;" src="2D_02.png" alt=" "></p>
+    <h4><a name="Installation"></a>Installation</h4>
+    <p>Tested in Windows XP 32 bits and Windows 7 64 bits.</p>
+    <h5><a name="Requirements"></a>Requirements</h5>
+    If you work with TudiViewer source you need Python installed (tested
+    with Python version 2.7.2) as well as the following dependencies:<br>
+    <ul>
+      <li>&nbsp;&nbsp;&nbsp; Matplotlib</li>
+      <li>&nbsp;&nbsp;&nbsp; Pandas </li>
+      <li>&nbsp;&nbsp;&nbsp; wxPython 2.8.11.2</li>
+      <li>&nbsp;&nbsp;&nbsp; commons (from lpcsicuab googlecode
+        repository)</li>
+    </ul>
+    <br>
+    <h5><a name="From_Installer"></a>From Installer<br>
+    </h5>
+    <ol>
+      <li>Download <tt>TudiViewer_x.y_setup.exe</tt> windows installer
+        from repository at the <a rel="nofollow" href="https://bitbucket.org/jabianmonux/_tudiviewer/downloads">TudiViewer
+
+
+
+
+          project download page</a>.</li>
+      <li><a href="#Download">Get your Password</a> for the installer.</li>
+      <li>Double click on the installer and follow the Setup Wizard.</li>
+      <li>Run <tt>TudiViewer</tt> by double-clicking on the TudiViewer<tt></tt>
+        short-cut in your desktop or from the START-PROGRAMS application
+        folder created by the installer.</li>
+    </ol>
+    <h5><a name="From_Source"></a>From Source</h5>
+    <ol>
+      <li>Install Python and third party software indicated in <a href="#Source_Dependencies:">Dependencies</a>.</li>
+      <li>Download <tt>TudiViewer</tt> source code from its <a rel="nofollow"
+
+          href="https://bitbucket.org/jabianmonux/tudi_viewer/overview">Mercurial
+
+
+
+
+          Source Repository</a>.</li>
+      <li>Download commons source code from its <a rel="nofollow" href="http://code.google.com/p/lp-csic-uab/source/browse/?repo=commons">Mercurial
+
+
+
+
+          Source Repository</a>.</li>
+      <li>Copy the folders in python site-packages or in another folder
+        in the python path.</li>
+      <li>Run <span style="font-family: monospace;">TudiViewer</span><tt></tt>
+        by double-clicking on the kblast_main.pyw module.</li>
+    </ol>
+    <h6><a name="Source_Dependencies:"></a><i>Source Dependencies:</i></h6>
+    <ul>
+      <li><a rel="nofollow" href="http://www.python.org/">Python</a> 2.6
+        or 2.7 (not tested with older versions)</li>
+      <li><a rel="nofollow" href="http://www.wxpython.org/">wxPython</a>
+        2.8.11.0 - 2.8.11.2</li>
+      <li><a rel="nofollow" href="http://www.biopython.org/">Pandas</a><br>
+      </li>
+      <li><a rel="nofollow" href="http://code.google.com/p/lp-csic-uab/source/browse/?repo=commons">commons</a>
+        (from LP CSIC/UAB Google Code <a rel="nofollow" href="http://code.google.com/p/lp-csic-uab/source/browse/?repo=commons">repository</a>)</li>
+    </ul>
+    <p>Third-party program versions correspond to those used for the
+      installer available here. Lower versions have not been tested,
+      although they may also be fine.</p>
+    <blockquote>Note for developpers: Installation from source requires
+      some small quirks in pandas modules. (TO BE COMPLETED).</blockquote>
+    <p>&nbsp;<br>
+    </p>
+    <h4><a name="Input File Format"></a><a href="README.html#Input%20File%20Format"></a>Input
+
+      File Format</h4>
+    TudiViewer accepts, based in the corresponding file extensions,
+    files in XLS, XLSX, TSV and CSV formats<br>
+    It works with Thermo Protein Discovered reports but the only
+    requierement is to provide the data in a file with at least six
+    columns of data and a header that will be used for the program to
+    recognize the column.<br>
+    The headers for the different columns must be as follows (in any
+    order):<br>
+    <br>
+    <img src="headers.png" alt="headers"><br>
+    <h4><a name="Download"></a>Download<br>
+    </h4>
+    <p><img src="downloadicon.jpg"> You can download the last version of
+      <strong><tt>TudiViewer</tt></strong> <a rel="nofollow" href="https://bitbucket.org/jabianmonux/_tudiviewer/downloads">here</a>.</p>
+    <blockquote>After downloading the binary installer, you have to
+      e-mail us at <img src="contact_samll.png"> to get your free
+      password and unlock the installation program. The password is not
+      required to run the application from source code<br>
+    </blockquote>
+    <p>&nbsp;</p>
+    <h4><a name="Change-Log"></a>Change-Log</h4>
+    1.0.0 September 2012<br>
+    <ul>
+      <li>First version.</li>
+      <li>Uploaded first installer<br>
+      </li>
+    </ul>
+    <br>
+    <h4><a name="To-Do"></a>To-Do</h4>
+    <ul>
+      <li>- test</li>
+      <li>- finish about/readme</li>
+      <li>- upload executable</li>
+      <li>- make accept less than five columns<br>
+        <br>
+      </li>
+    </ul>
+    <h4><a name="Contribute"></a>Contribute</h4>
+    <p>These programs are made to be useful. If you use them and don't
+      work entirely as you expect, let us know about features you think
+      are needed, and we will try to include them in future releases.</p>
+    <p><img src="contact_samll.png"></p>
+  </body>
+</html>

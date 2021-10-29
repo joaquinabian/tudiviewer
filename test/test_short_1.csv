@@ -1,0 +1,22 @@
+Accession,Description,Sum(Coverage),Sum(# Proteins),Sum(# Unique Peptides),Sum(# Peptides),Sum(# PSMs),MW [kDa],calc. pI
+P37754,"6-phosphogluconate dehydrogenase, decarboxylating OS=Escherichia coli GN=gnd PE=3 SV=1 - [6PGD9_ECOLX]",33.97%,1,1,17,45,51.6,5.21
+P00350,"6-phosphogluconate dehydrogenase, decarboxylating OS=Escherichia coli (strain K12) GN=gnd PE=1 SV=2 - [6PGD_ECOLI]",59.40%,2,12,30,95,51.4,5.15
+B7ULP0,6-phosphogluconolactonase OS=Escherichia coli O127:H6 (strain E2348/69 / EPEC) GN=pgl PE=3 SV=1 - [6PGL_ECO27],35.65%,8,6,10,17,36.3,5.27
+P00509,Aspartate aminotransferase OS=Escherichia coli (strain K12) GN=aspC PE=1 SV=1 - [AAT_ECOLI],52.02%,1,20,25,80,43.5,5.77
+P77744,HTH-type transcriptional regulator AbgR OS=Escherichia coli (strain K12) GN=abgR PE=4 SV=1 - [ABGR_ECOLI],12.58%,1,1,3,5,34,7.81
+Q8X9B6,Biotin carboxylase OS=Escherichia coli O157:H7 GN=accC PE=3 SV=1 - [ACCC_ECO57],41.87%,2,10,21,33,49.3,7.11
+P0A9G7,Isocitrate lyase OS=Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) GN=aceA PE=3 SV=1 - [ACEA_ECOL6],22.81%,1,8,11,19,47.5,5.31
+P0CK95,Putative lipoprotein AcfD homolog OS=Escherichia coli (strain K12) GN=yghJ PE=4 SV=1 - [ACFD_ECOLI],18.95%,1,1,18,24,167.1,5.03
+P0A6A5,Acetate kinase OS=Escherichia coli O157:H7 GN=ackA PE=3 SV=1 - [ACKA_ECO57],14.00%,1,4,6,9,43.3,6.28
+P25516,Aconitate hydratase 1 OS=Escherichia coli (strain K12) GN=acnA PE=1 SV=3 - [ACON1_ECOLI],17.73%,1,5,13,17,97.6,5.88
+P36683,Aconitate hydratase 2 OS=Escherichia coli (strain K12) GN=acnB PE=1 SV=3 - [ACON2_ECOLI],35.38%,1,25,30,76,93.4,5.4
+A7ZKJ7,Acyl carrier protein OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=acpP PE=3 SV=1 - [ACP_ECO24],38.46%,1,5,5,46,8.6,4.06
+P31224,Acriflavine resistance protein B OS=Escherichia coli (strain K12) GN=acrB PE=1 SV=1 - [ACRB_ECOLI],7.72%,1,2,6,7,113.5,5.57
+A7ZM83,Adenosine deaminase OS=Escherichia coli O139:H28 (strain E24377A / ETEC) GN=add PE=3 SV=1 - [ADD_ECO24],45.95%,8,12,16,45,36.4,5.6
+P0A9Q8,Aldehyde-alcohol dehydrogenase OS=Escherichia coli O157:H7 GN=adhE PE=3 SV=2 - [ADHE_ECO57],26.37%,1,14,23,53,96.1,6.79
+P0AE10,Alkyl hydroperoxide reductase subunit C OS=Escherichia coli O157:H7 GN=ahpC PE=3 SV=2 - [AHPC_ECO57],62.57%,1,15,17,73,20.7,5.17
+P35340,Alkyl hydroperoxide reductase subunit F OS=Escherichia coli (strain K12) GN=ahpF PE=1 SV=2 - [AHPF_ECOLI],15.36%,1,2,6,6,56.1,5.68
+P00561,Bifunctional aspartokinase/homoserine dehydrogenase 1 OS=Escherichia coli (strain K12) GN=thrA PE=1 SV=2 - [AK1H_ECOLI],41.95%,1,27,36,96,89.1,5.68
+P00562,Bifunctional aspartokinase/homoserine dehydrogenase 2 OS=Escherichia coli (strain K12) GN=metL PE=1 SV=3 - [AK2H_ECOLI],9.38%,1,5,8,12,88.8,5.59
+P08660,Lysine-sensitive aspartokinase 3 OS=Escherichia coli (strain K12) GN=lysC PE=1 SV=2 - [AK3_ECOLI],34.08%,1,11,12,29,48.5,5.11
+P0A992,Fructose-bisphosphate aldolase class 1 OS=Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) GN=fbaB PE=3 SV=2 - [ALF1_ECOL6],24.00%,1,5,6,10,38.1,6.73
