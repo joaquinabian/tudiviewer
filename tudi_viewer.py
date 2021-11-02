@@ -18,6 +18,7 @@ import pandas as p
 from commons.iconic import Iconic
 from commons.info import About
 from commons.warns import tell
+# noinspection PyPep8Naming
 from matplotlib import rcParams as rcp
 from tudi_frame import TudiFrame
 from tudi_ico import ICON
@@ -70,6 +71,18 @@ class TudiViewer(TudiFrame, Iconic):
         self.coverage = ''
         self.mr = ''
         self.pi = ''
+        self.dataframe = None
+        self.equalize_type = None
+        self.zoom = None
+        self.pos = None
+        self.desc = None
+        self.scx = None
+        self.index = None
+        self.accession = None
+        self.about = None
+        self.currentItem = None
+        self.threshold_changed = None
+        self.background_color = None
         #
         self.new_path = self.DEMO = 'test/test_short.tsv'
         self.datafile_path = ""
@@ -145,7 +158,8 @@ class TudiViewer(TudiFrame, Iconic):
         self.Refresh()
         evt.Skip()
     #
-    def get_num(self, x):
+    @staticmethod
+    def get_num(x):
         """Removes last char of a string and converts to float.
 
         Used by pandas to map to floats columns with cells of the type "99%"
@@ -237,7 +251,7 @@ class TudiViewer(TudiFrame, Iconic):
         """Create and fill secondary columns with data"""
         warn_about = []
         for column in (self.coverage, self.psm):
-            if not column in df.columns:
+            if column not in df.columns:
                 df[column] = p.Series([10] * len(df.index), index=df.index)
                 warn_about.append(column)
 
@@ -274,7 +288,8 @@ class TudiViewer(TudiFrame, Iconic):
                                          )
         return df
     #
-    def sniff_coverage(self, series):
+    @staticmethod
+    def sniff_coverage(series):
         """Ascertain coverage format.
 
         Coverage has to be an integer representing a percentage.
@@ -402,7 +417,7 @@ class TudiViewer(TudiFrame, Iconic):
         self.view.axes.set_ylim(y_win)
         self.view.draw(hold=hold)
     #
-    #noinspection PyArgumentEqualDefault
+    # noinspection PyArgumentEqualDefault
     def on_protein_selected(self, evt):
         """Marks in the scatter plot the protein selected in the protein list.
 
@@ -426,7 +441,7 @@ class TudiViewer(TudiFrame, Iconic):
         protein_index = int(
             self.proteins.list.GetItemData(self.currentItem)) - 1
         cross = self.cross.pop(protein_index)[0]
-        #after a refresh, deselecting an item gives error
+        # after a refresh, deselecting an item gives error
         try:
             cross.remove()
         except ValueError:
@@ -540,7 +555,7 @@ class TudiViewer(TudiFrame, Iconic):
         """Prepares a blank table with <number> rows"""
         actual = self.grid_picked.GetNumberRows()
         if actual > 1:
-            #noinspection PyArgumentList
+            # noinspection PyArgumentList
             self.grid_picked.DeleteRows(1, actual)
             #
         if number > 0:
@@ -560,12 +575,12 @@ class TudiViewer(TudiFrame, Iconic):
             self.about.Show()
         else:
             self.about.SetFocus()
-#
-#
+
+
 #
 if __name__ == '__main__':
 
     app = wx.PySimpleApp()
     TudiViewer(title='module').Show()
-    #noinspection PyUnresolvedReferences
+    # noinspection PyUnresolvedReferences
     app.MainLoop()

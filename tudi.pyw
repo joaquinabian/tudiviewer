@@ -14,5 +14,5 @@ from tudi_viewer import TudiViewer
 
 app = wx.App()
 TudiViewer(title=TITLE).Show()
-#noinspection PyUnresolvedReferences
+# noinspection PyUnresolvedReferences
 app.MainLoop()

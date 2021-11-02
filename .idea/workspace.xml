@@ -4,9 +4,6 @@
     <list default="true" id="7271a70d-30ef-4c1a-9793-29ff84109262" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tudi.pyw" beforeDir="false" afterPath="$PROJECT_DIR$/tudi.pyw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tudi_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/tudi_frame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tudi_listctrl.py" beforeDir="false" afterPath="$PROJECT_DIR$/tudi_listctrl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tudi_panel.py" beforeDir="false" afterPath="$PROJECT_DIR$/tudi_panel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tudi_viewer.py" beforeDir="false" afterPath="$PROJECT_DIR$/tudi_viewer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +36,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/tudi_viewer.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/movie_maker.pyw" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/tudi.pyw" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/tudi_panel.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -345,7 +343,7 @@
       <updated>1346515371240</updated>
       <workItem from="1635500975396" duration="2950000" />
       <workItem from="1635845381175" duration="7843000" />
-      <workItem from="1635853658184" duration="80000" />
+      <workItem from="1635853658184" duration="1970000" />
     </task>
     <task id="LOCAL-00001" summary="fix problem with refresh. Optimize canvas controls and add equalizer functions&#10;">
       <created>1347036079912</created>
@@ -368,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1347102088950</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fix py3k migration problems">
+      <created>1635854312385</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1635854312385</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -431,7 +436,8 @@
     <MESSAGE value="fix problem with refresh. Optimize canvas controls and add equalizer functions&#10;" />
     <MESSAGE value="Add some docstrings. Optimize file loading code (check for existence, catch wrong formats" />
     <MESSAGE value="Add &lt; coorect tsv file to test folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add &lt; coorect tsv file to test folder" />
+    <MESSAGE value="Fix py3k migration problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix py3k migration problems" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
