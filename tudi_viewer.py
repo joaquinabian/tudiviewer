@@ -407,7 +407,7 @@ class TudiViewer(TudiFrame, Iconic):
         """Marks in the scatter plot the protein selected in the protein list.
 
         """
-        protein_index = int(self.proteins.list.GetItemData(evt.m_itemIndex)) - 1
+        protein_index = int(self.proteins.list.GetItemData(evt.Index)) - 1
 
         mass = self.yvals[protein_index]
         pi = self.xvals[protein_index]
@@ -422,7 +422,7 @@ class TudiViewer(TudiFrame, Iconic):
         When a new protein is selected in the ctrl list with a Left click,
         the previous selected protein is deselected.
         """
-        self.currentItem = evt.m_itemIndex
+        self.currentItem = evt.Index
         protein_index = int(
             self.proteins.list.GetItemData(self.currentItem)) - 1
         cross = self.cross.pop(protein_index)[0]

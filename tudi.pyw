@@ -12,7 +12,7 @@ TITLE = ' TudiViewer v1.1'
 import wx
 from tudi_viewer import TudiViewer
 
-app = wx.PySimpleApp()
+app = wx.App()
 TudiViewer(title=TITLE).Show()
 #noinspection PyUnresolvedReferences
 app.MainLoop()

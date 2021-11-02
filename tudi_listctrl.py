@@ -12,6 +12,12 @@ import wx
 import wx.lib.mixins.listctrl as listmix
 #
 #
+def cmp(a,b):
+    """cmp dissapeared on py3k"""
+
+    return (a > b) - (a < b)
+#
+#
 class TestListCtrl(wx.ListCtrl, listmix.ListCtrlAutoWidthMixin):
     def __init__(self, parent, ID, pos=wx.DefaultPosition,
                  size=wx.DefaultSize, style=0):
@@ -25,7 +31,9 @@ class ProteinList(wx.Panel, listmix.ColumnSorterMixin):
         self.items = ()
         sizer = wx.BoxSizer(wx.VERTICAL)
         #
-        self.list = TestListCtrl(self, -1, style=wx.LC_REPORT | wx.BORDER_NONE)
+        tID = wx.NewIdRef()
+        #
+        self.list = TestListCtrl(self, tID, style=wx.LC_REPORT | wx.BORDER_NONE)
         sizer.Add(self.list, 1, wx.EXPAND)
         listmix.ColumnSorterMixin.__init__(self, 6)
         #
@@ -75,10 +83,10 @@ class ProteinList(wx.Panel, listmix.ColumnSorterMixin):
         self.list.InsertColumn(5, "pI")
 
         for key, data in self.items:
-            index = self.list.InsertStringItem(sys.maxsize, data[0])
+            index = self.list.InsertItem(self.list.GetItemCount(), data[0])
             #
             for idx in range(1, 6):
-                self.list.SetStringItem(index, idx, data[idx])
+                self.list.SetItem(index, idx, data[idx])
             #
             self.list.SetItemData(index, key)
 

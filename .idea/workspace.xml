@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7271a70d-30ef-4c1a-9793-29ff84109262" name="Default" comment="" />
+    <list default="true" id="7271a70d-30ef-4c1a-9793-29ff84109262" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tudi.pyw" beforeDir="false" afterPath="$PROJECT_DIR$/tudi.pyw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tudi_frame.py" beforeDir="false" afterPath="$PROJECT_DIR$/tudi_frame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tudi_listctrl.py" beforeDir="false" afterPath="$PROJECT_DIR$/tudi_listctrl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tudi_panel.py" beforeDir="false" afterPath="$PROJECT_DIR$/tudi_panel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tudi_viewer.py" beforeDir="false" afterPath="$PROJECT_DIR$/tudi_viewer.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +32,9 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/tudi_viewer.py" root0="FORCE_HIGHLIGHTING" />
@@ -123,16 +133,14 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
-      <PyConsoleSettings>
+      <console-settings module-name="leti_viewer" sdk-home="$PROJECT_DIR$/../../python.exe">
         <option name="mySdkHome" value="$PROJECT_DIR$/../../python.exe" />
         <option name="myModuleName" value="leti_viewer" />
-      </PyConsoleSettings>
-    </option>
-    <option name="myDjangoConsoleState">
-      <PyConsoleSettings />
+      </console-settings>
     </option>
   </component>
   <component name="RecentsManager">
@@ -144,7 +152,7 @@
       <recent name="C:\Python27\programas\leti_viewer\glade" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tudi.pyw">
+  <component name="RunManager" selected="Python.tudi_frame">
     <configuration name="movie_maker" type="PythonConfigurationType" factoryName="Python">
       <module name="_tudiviewer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -301,9 +309,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tudi_frame" />
         <item itemvalue="Python.tudi.pyw" />
         <item itemvalue="Python.tudi_viewer.pyw" />
-        <item itemvalue="Python.tudi_frame" />
         <item itemvalue="Python.tudi_panel" />
         <item itemvalue="Python.tudi_panel" />
       </list>
@@ -336,6 +344,8 @@
       <option name="presentableId" value="Default" />
       <updated>1346515371240</updated>
       <workItem from="1635500975396" duration="2950000" />
+      <workItem from="1635845381175" duration="7843000" />
+      <workItem from="1635853658184" duration="80000" />
     </task>
     <task id="LOCAL-00001" summary="fix problem with refresh. Optimize canvas controls and add equalizer functions&#10;">
       <created>1347036079912</created>
@@ -415,6 +425,9 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="fix problem with refresh. Optimize canvas controls and add equalizer functions&#10;" />
     <MESSAGE value="Add some docstrings. Optimize file loading code (check for existence, catch wrong formats" />
     <MESSAGE value="Add &lt; coorect tsv file to test folder" />
@@ -431,6 +444,7 @@
           <option name="timeStamp" value="3" />
         </breakpoint>
         <breakpoint type="django-exception">
+          <properties exception="VariableDoesNotExist" />
           <option name="timeStamp" value="4" />
         </breakpoint>
         <breakpoint type="javascript-exception">
@@ -440,7 +454,8 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/_tudiviewer$tudi_pyw.coverage" NAME="tudi.pyw Coverage Results" MODIFIED="1635505903917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_tudiviewer$tudi_pyw.coverage" NAME="tudi.pyw Coverage Results" MODIFIED="1635852047522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_tudiviewer$tudi_frame.coverage" NAME="tudi_frame Coverage Results" MODIFIED="1635853278414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/setup.py">

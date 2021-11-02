@@ -105,7 +105,7 @@ class TudiFrame(wx.Frame):
         szr_23.Add(self.grid_picked, 0, wx.ALL | wx.EXPAND, 5)
         szr_2.Add(szr_23, 0, wx.EXPAND, 0)
         self.win_2_pane.SetSizer(szr_2)
-        self.win_2.SplitVertically(self.panel_1, self.win_2_pane)
+        self.win_2.SplitVertically(self.panel_1, self.win_2_pane, sashPosition=500)
         szr_1.Add(self.win_2, 1, wx.ALL | wx.EXPAND, 5)
         self.SetSizer(szr_1)
         szr_1.Fit(self)
@@ -114,7 +114,7 @@ class TudiFrame(wx.Frame):
 
 # end of class TudiFrame
 if __name__ == "__main__":
-    app = wx.PySimpleApp(0)
+    app = wx.App(0)
     wx.InitAllImageHandlers()
     frame_3 = TudiFrame(None, wx.ID_ANY, "")
     app.SetTopWindow(frame_3)

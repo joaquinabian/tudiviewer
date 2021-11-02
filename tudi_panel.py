@@ -111,7 +111,8 @@ class TudiPanel(wx.Panel):
     # noinspection PyUnusedLocal
     def draw(self, hold=False):
         """"""
-        self.axes.hold(hold)
+        if not hold:
+            self.axes.clear()
         self.axes.set_xlabel(self.xlabel)
         self.axes.set_ylabel(self.ylabel)
         #
