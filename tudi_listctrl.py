@@ -7,33 +7,32 @@ Program for LCMSMS data Analysis
 """
 #
 #
-import sys
 import wx
 import wx.lib.mixins.listctrl as listmix
 #
 #
-def cmp(a,b):
-    """cmp dissapeared on py3k"""
+def cmp(a, b):
+    """cmp disappeared on py3k"""
 
     return (a > b) - (a < b)
 #
 #
 class TestListCtrl(wx.ListCtrl, listmix.ListCtrlAutoWidthMixin):
-    def __init__(self, parent, ID, pos=wx.DefaultPosition,
+    def __init__(self, parent, id_, pos=wx.DefaultPosition,
                  size=wx.DefaultSize, style=0):
-        wx.ListCtrl.__init__(self, parent, ID, pos, size, style)
+        wx.ListCtrl.__init__(self, parent, id_, pos, size, style)
         listmix.ListCtrlAutoWidthMixin.__init__(self)
 #
 #
 class ProteinList(wx.Panel, listmix.ColumnSorterMixin):
-    def __init__(self, parent, id):
-        wx.Panel.__init__(self, parent, id, style=wx.WANTS_CHARS)
+    def __init__(self, parent, id_):
+        wx.Panel.__init__(self, parent, id_, style=wx.WANTS_CHARS)
         self.items = ()
         sizer = wx.BoxSizer(wx.VERTICAL)
         #
-        tID = wx.NewIdRef()
+        tid = wx.NewIdRef()
         #
-        self.list = TestListCtrl(self, tID, style=wx.LC_REPORT | wx.BORDER_NONE)
+        self.list = TestListCtrl(self, tid, style=wx.LC_REPORT | wx.BORDER_NONE)
         sizer.Add(self.list, 1, wx.EXPAND)
         listmix.ColumnSorterMixin.__init__(self, 6)
         #
@@ -44,7 +43,7 @@ class ProteinList(wx.Panel, listmix.ColumnSorterMixin):
     def GetColumnSorter(self):
         return self.custom_sorter
     #
-    #noinspection PyUnresolvedReferences
+    # noinspection PyUnresolvedReferences
     def custom_sorter(self, key1, key2):
         """Sort numerically if a string contains only digits"""
         col = self._col
@@ -59,17 +58,17 @@ class ProteinList(wx.Panel, listmix.ColumnSorterMixin):
         except ValueError:
             pass
         #
-        cmpVal = cmp(item1, item2)
+        cmp_val = cmp(item1, item2)
         #
         # If the items are equal then pick something else
         # to make the sort value unique
-        if cmpVal == 0:
-            cmpVal = cmp(*self.GetSecondarySortValues(col, key1, key2))
+        if cmp_val == 0:
+            cmp_val = cmp(*self.GetSecondarySortValues(col, key1, key2))
 
         if ascending:
-            return cmpVal
+            return cmp_val
         else:
-            return -cmpVal
+            return -cmp_val
     #
     def populate(self):
         """"""
@@ -98,23 +97,24 @@ class ProteinList(wx.Panel, listmix.ColumnSorterMixin):
         self.list.SetColumnWidth(5, -1)
 
     # Used by the ColumnSorterMixin, see wx/lib/mixins/listctrl.py
+    # noinspection PyPep8Naming
     def GetListCtrl(self):
         return self.list
 
     # Used by the ColumnSorterMixin, see wx/lib/mixins/listctrl.py
     def GetSortImages(self):
         return -1, -1
-#
-#
+
+
 #
 if __name__ == '__main__':
 
     items = {
         1: ("1", "sp", "PROQ PROQ", "89.08", "01", "02"),
         2: ("2", "P37754", "6-phosphoglucon, decarbo", "33.97", "10", "14"),
-        3: ("3", "P00350", "6-phosphogluconate dehydro", "59.40","11", "15"),
-        4: ("4", "B7ULP0", "6-phosphogluconolactonase", "35.65","12", "16"),
-        5: ("5", "P00509", "Aspartate aminotransferase", "52.02","13", "17")
+        3: ("3", "P00350", "6-phosphogluconate dehydro", "59.40", "11", "15"),
+        4: ("4", "B7ULP0", "6-phosphogluconolactonase", "35.65", "12", "16"),
+        5: ("5", "P00509", "Aspartate aminotransferase", "52.02", "13", "17")
     }
 
     class AFrame(wx.Frame):
@@ -130,5 +130,5 @@ if __name__ == '__main__':
 
     app = wx.PySimpleApp()
     AFrame(None, panel=ProteinList).Show()
-    #noinspection PyUnresolvedReferences
+    # noinspection PyUnresolvedReferences
     app.MainLoop()
